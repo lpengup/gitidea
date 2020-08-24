@@ -27,14 +27,4 @@ public class Utils{
     {
         System.out.println("***setmy==========");
     }
-    public void set4()
-    {
-        System.out.println("***setmy fengzhi==========");
-    }
-
-    public void set5()
-    {
-        System.out.println("***setmy dev==========");
-    }
-
 }
