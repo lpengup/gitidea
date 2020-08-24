@@ -23,4 +23,9 @@ public class Utils{
     {
         System.out.println("***setremote==========");
     }
+  
+  public void set3()
+    {
+        System.out.println("***setremote==========");
+    }
 }
