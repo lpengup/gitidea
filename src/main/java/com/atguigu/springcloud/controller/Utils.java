@@ -13,4 +13,9 @@ public class Utils{
     {
         System.out.println("***setmy==========");
     }
+
+    public void set2()
+    {
+        System.out.println("***setmy==========");
+    }
 }
