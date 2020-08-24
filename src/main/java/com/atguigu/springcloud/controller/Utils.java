@@ -4,4 +4,9 @@ public class Utils{
   {
       System.out.println("***commit and push==========");
   }
+  
+  public void set()
+  {
+      System.out.println("***set==========");
+  }
 }
