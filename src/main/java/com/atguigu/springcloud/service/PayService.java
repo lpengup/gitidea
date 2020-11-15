@@ -3,7 +3,8 @@ package com.atguigu.springcloud.service;
 import com.atguigu.springcloud.entities.Payment;
 
 public interface PayService {
-    public int create(Payment payment);
+    static int a=1;
+    public abstract int create(Payment payment);
 
-    public int updatePay(Payment payment);
+     int updatePay(Payment payment);
 }

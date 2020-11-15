@@ -55,4 +55,18 @@ public class PaymentController
         }
     }
 
+    public static void main(String[] args) {
+        System.out.println(Math.floor(-11.6));//=12
+        System.out.println(Math.floor(-11.2));//-12
+        System.out.println(Math.floor(-11.5));//-12
+        System.out.println(Math.round(-11.6));//-12
+        System.out.println(Math.round(-11.2));//-11  -11.2+0.5=-10.7 -11
+        System.out.println(Math.round(11.2));//11
+        System.out.println(Math.round(11.6));//12
+        System.out.println(Math.round(11.5));//12
+        System.out.println(Math.round(-11.5));//-11
+        System.out.println(Math.round(-11.0));//-11
+        System.out.println(Math.floor(-11.0));//-11
+
+    }
 }
